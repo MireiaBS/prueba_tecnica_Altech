@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import usersData from '/public/userList.json'
 
 export const UserList = () => {   
-    
     const [user, setUser] = useState([{
         name : '',
         email: '',
@@ -25,7 +24,7 @@ export const UserList = () => {
     const addUser = () => {
         let newUser =  prompt('Type the name of new user')
 
-        setUser(prevUsers => [...prevUsers, newUser])
+        setUser(prevUsers => [...prevUsers, {name :newUser, email:'', password:''}])
         console.log(user)        
     }
 

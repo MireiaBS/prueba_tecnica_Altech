@@ -1,11 +1,12 @@
-import React from 'react'
 import { Inicio } from "./Inicio"
 import { useState } from 'react'
+import React from "react";
+
 
 export const Form = () => {
-
+    
     const [values, setValues] = useState({
-        nombre: "",
+        name: "",
         email: "",
         password: ""
     })
@@ -13,6 +14,7 @@ export const Form = () => {
     function handleSubmit(e) {
 
         e.preventDefault();
+        alert('New user added.\n Name: '+ values.name + '\n Password: ' +values.password+ '\n Email: '+values.email)
         console.log('Nuevo usuario:', values);
     }
 
