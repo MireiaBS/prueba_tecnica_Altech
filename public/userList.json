@@ -1,0 +1,72 @@
+[
+    {
+        "id": 5,
+        "nombre": "Carlos",
+        "edad": 28,
+        "email": "carlos.sanchez@gmail.com",
+        "password": "password1"
+    },
+    {
+        "id": 6,
+        "nombre": "Laura",
+        "edad": 33,
+        "email": "laura_johnson@hotmail.com",
+        "password": "password2"
+    },
+    {
+        "id": 7,
+        "nombre": "David",
+        "edad": 29,
+        "email": "david.lopez@yahoo.com",
+        "password": "password3"
+    },
+    {
+        "id": 8,
+        "nombre": "Sara",
+        "edad": 31,
+        "email": "sara_martin@outlook.com",
+        "password": "password4"
+    },
+    {
+        "id": 9,
+        "nombre": "Elena",
+        "edad": 26,
+        "email": "elena_ramos@gmail.com",
+        "password": "password5"
+    },
+    {
+        "id": 10,
+        "nombre": "Miguel",
+        "edad": 38,
+        "email": "miguel.garcia@hotmail.com",
+        "password": "password6"
+    },
+    {
+        "id": 11,
+        "nombre": "Lucía",
+        "edad": 27,
+        "email": "lucia.fernandez@yahoo.com",
+        "password": "password7"
+    },
+    {
+        "id": 12,
+        "nombre": "Pablo",
+        "edad": 34,
+        "email": "pablo_martinez@gmail.com",
+        "password": "password8"
+    },
+    {
+        "id": 13,
+        "nombre": "Carmen",
+        "edad": 32,
+        "email": "carmen_moreno@hotmail.com",
+        "password": "password9"
+    },
+    {
+        "id": 14,
+        "nombre": "Alberto",
+        "edad": 36,
+        "email": "alberto_gomez@yahoo.com",
+        "password": "password10"
+    }
+]
